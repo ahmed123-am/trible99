@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body style="background-image: url(10.jpg);background-repeat: no-repeat;background-size: 100%; padding: top=1024px;">
+ <table  width="100%" height="100%">
+    <tr>
+        <td colspan="4"><Center><H1> Registration form </H1></Center></td>
+        
+    </tr>
+    <tr>
+        <td>Name</td>
+        <td><input type="text"></td>
+        <td>Address</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td>city</td>
+        <td>
+            <select>
+                <option>Damietta</option>
+                <option>portsaid</option>
+            </select>
+        </td>
+        <td>Number</td>
+        <td>
+            <input type="number">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <center>
+<input type="submit" value="Check order" id="checkOrderBtn"
+            </center>
+        </td>
+     <td colspan="4">
+        
+     </td>
+
+    </tr>
+</table>   
+
+<script>
+    document.getElementById('checkOrderBtn').addEventListener('click', function(event) {
+        event.preventDefault();
+        alert('تم تأكيد الطلب');
+    });
+</script>
+
+</body>
+</html>
